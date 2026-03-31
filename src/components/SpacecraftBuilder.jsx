@@ -24,7 +24,7 @@ function SpacecraftBuilder() {
       </div>
 
       <div>
-        <inventoryDisplay inventory={inventory} onDeleteItem={deleteItem} />
+        <InventoryDisplay inventory={inventory} onDeleteItem={deleteItem} />
       </div>
     </div>
   );
