@@ -2,6 +2,9 @@ import { useState } from "react";
 
 import styles from "./SpacecraftBuilder.module.css";
 
+import ItemForm from "./ItemForm.jsx";
+import InventoryDisplay from "./InventoryDisplay.jsx";
+
 function SpacecraftBuilder() {
   const [inventory, setInventory] = useState([]);
 

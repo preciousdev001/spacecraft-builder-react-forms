@@ -55,3 +55,5 @@ function ItemForm({ onItemSubmit }) {
     }
   }
 }
+
+export default ItemForm;
